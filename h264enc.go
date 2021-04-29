@@ -4,6 +4,8 @@ package codec
 import (
 
 	/*
+	#define AV_CODEC_FLAG_GLOBAL_HEADER (1 << 22)
+	#define CODEC_FLAG_GLOBAL_HEADER AV_CODEC_FLAG_GLOBAL_HEADER
 	#include <stdio.h>
 	#include <stdlib.h>
 	#include <stdint.h>
